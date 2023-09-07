@@ -71,7 +71,6 @@ public class ServerServiceImpl implements ServerService {
         log.info("Deleting server by ID: {}", id);
         serverRepo.deleteById(id);
         return true;
-
     }
     private String setServerImageUrl() {
         String [] images = {"server1.png", "server2.png","server3.png","server4.png"};
